@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aa2c129e9c69a15d6bf272b726487536 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aa2c129e9c69a15d6bf272b726487536" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aa2c129e9c69a15d6bf272b726487536 = L.map(
+                "map_aa2c129e9c69a15d6bf272b726487536",
+                {
+                    center: [34.1162, -118.2596],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2fea770193d4c1b0bb91402fe996973a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var marker_610dcaea8abafab0ffcbbd5067d55032 = L.marker(
+                [34.1162, -118.2596],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_2f47cc4097749d2b4798a3879fa67c3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_610dcaea8abafab0ffcbbd5067d55032.setIcon(icon_2f47cc4097749d2b4798a3879fa67c3d);
+        
+    
+        var popup_7ea47e74b9a1e450221588cdf9de7ad8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55ff98ec2e510378e248ac9fa8db53e8 = $(`<div id="html_55ff98ec2e510378e248ac9fa8db53e8" style="width: 100.0%; height: 100.0%;">Atwater Village was named after Harriet Atwater Paramore, who subdivided the area in 1913.</div>`)[0];
+                popup_7ea47e74b9a1e450221588cdf9de7ad8.setContent(html_55ff98ec2e510378e248ac9fa8db53e8);
+            
+        
+
+        marker_610dcaea8abafab0ffcbbd5067d55032.bindPopup(popup_7ea47e74b9a1e450221588cdf9de7ad8)
+        ;
+
+        
+    
+    
+            var marker_1fe282d424298d2a85db5872e724bf80 = L.marker(
+                [34.1134, -118.2626],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_183b54b176a582db67006d10aa6ede3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_1fe282d424298d2a85db5872e724bf80.setIcon(icon_183b54b176a582db67006d10aa6ede3e);
+        
+    
+        var popup_8d144018d0fdd582e7d07880bb128188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3595dbea1f29e7b45cd1e5c19dd30d1b = $(`<div id="html_3595dbea1f29e7b45cd1e5c19dd30d1b" style="width: 100.0%; height: 100.0%;">The Tam O'Shanter restaurant, located in Atwater Village, is one of the oldest restaurants in Los Angeles and was founded in 1922.</div>`)[0];
+                popup_8d144018d0fdd582e7d07880bb128188.setContent(html_3595dbea1f29e7b45cd1e5c19dd30d1b);
+            
+        
+
+        marker_1fe282d424298d2a85db5872e724bf80.bindPopup(popup_8d144018d0fdd582e7d07880bb128188)
+        ;
+
+        
+    
+    
+            var marker_3de07c0a893c3f1ecefce00e94a477db = L.marker(
+                [34.1163, -118.2616],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_66ee095efc162b043af7c90c29695abd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_3de07c0a893c3f1ecefce00e94a477db.setIcon(icon_66ee095efc162b043af7c90c29695abd);
+        
+    
+        var popup_67135e77f686a6c423618c261b9dcdfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4340d86e1b52eaf86a5d925e5161064 = $(`<div id="html_a4340d86e1b52eaf86a5d925e5161064" style="width: 100.0%; height: 100.0%;">The Atwater Village Farmers' Market takes place every Sunday and offers a variety of fresh produce and other goods.</div>`)[0];
+                popup_67135e77f686a6c423618c261b9dcdfd.setContent(html_a4340d86e1b52eaf86a5d925e5161064);
+            
+        
+
+        marker_3de07c0a893c3f1ecefce00e94a477db.bindPopup(popup_67135e77f686a6c423618c261b9dcdfd)
+        ;
+
+        
+    
+    
+            var marker_2754190a5b866cf7e8d5c665c57fb8a7 = L.marker(
+                [34.1158, -118.2601],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_bc2054e8812b9b5dd29fa76887d5ac64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_2754190a5b866cf7e8d5c665c57fb8a7.setIcon(icon_bc2054e8812b9b5dd29fa76887d5ac64);
+        
+    
+        var popup_5262f89fd3c9c3be589362676f3c5cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_063dcbdee2c5b9ab9bcc0cb2e0fc82ac = $(`<div id="html_063dcbdee2c5b9ab9bcc0cb2e0fc82ac" style="width: 100.0%; height: 100.0%;">The mural "The History of Atwater Village" located on the side of the Wells Fargo bank building depicts the area's history.</div>`)[0];
+                popup_5262f89fd3c9c3be589362676f3c5cd2.setContent(html_063dcbdee2c5b9ab9bcc0cb2e0fc82ac);
+            
+        
+
+        marker_2754190a5b866cf7e8d5c665c57fb8a7.bindPopup(popup_5262f89fd3c9c3be589362676f3c5cd2)
+        ;
+
+        
+    
+    
+            var marker_1b00c9619785c55a34c64eef5e0920b6 = L.marker(
+                [34.1151, -118.2642],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_2eb41aeac2a53b16391597c6c33abd78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_1b00c9619785c55a34c64eef5e0920b6.setIcon(icon_2eb41aeac2a53b16391597c6c33abd78);
+        
+    
+        var popup_e780ce59ad4406b6ed8c6801e72b9bfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_607b44b36cbf404081125ca72668fa4f = $(`<div id="html_607b44b36cbf404081125ca72668fa4f" style="width: 100.0%; height: 100.0%;">The Atwater Village Theatre was once a church and is now a popular venue for theater and performing arts.</div>`)[0];
+                popup_e780ce59ad4406b6ed8c6801e72b9bfa.setContent(html_607b44b36cbf404081125ca72668fa4f);
+            
+        
+
+        marker_1b00c9619785c55a34c64eef5e0920b6.bindPopup(popup_e780ce59ad4406b6ed8c6801e72b9bfa)
+        ;
+
+        
+    
+    
+            var marker_420ff9b9eb23cffdb2687a4cc7208c66 = L.marker(
+                [34.123, -118.2616],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_a0caa377746363fe89b2b8f048672bff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_420ff9b9eb23cffdb2687a4cc7208c66.setIcon(icon_a0caa377746363fe89b2b8f048672bff);
+        
+    
+        var popup_41d626a358eaeebbe267632362dc8e99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9fb8f99996c60d69ee5998fcb6d9226 = $(`<div id="html_d9fb8f99996c60d69ee5998fcb6d9226" style="width: 100.0%; height: 100.0%;">The famous musician Beck grew up in Atwater Village.</div>`)[0];
+                popup_41d626a358eaeebbe267632362dc8e99.setContent(html_d9fb8f99996c60d69ee5998fcb6d9226);
+            
+        
+
+        marker_420ff9b9eb23cffdb2687a4cc7208c66.bindPopup(popup_41d626a358eaeebbe267632362dc8e99)
+        ;
+
+        
+    
+    
+            var marker_7964de331de0b9c574480768d3b9eb9e = L.marker(
+                [34.1293, -118.2569],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_bd224d2c61eb257fa5904bf220494ab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_7964de331de0b9c574480768d3b9eb9e.setIcon(icon_bd224d2c61eb257fa5904bf220494ab3);
+        
+    
+        var popup_99897911c8864efc5633fb803c6d8edf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29ae6198c006d10061ce6b572ae3393e = $(`<div id="html_29ae6198c006d10061ce6b572ae3393e" style="width: 100.0%; height: 100.0%;">The Los Angeles River runs through Atwater Village and offers recreational opportunities such as kayaking and biking.</div>`)[0];
+                popup_99897911c8864efc5633fb803c6d8edf.setContent(html_29ae6198c006d10061ce6b572ae3393e);
+            
+        
+
+        marker_7964de331de0b9c574480768d3b9eb9e.bindPopup(popup_99897911c8864efc5633fb803c6d8edf)
+        ;
+
+        
+    
+    
+            var marker_4bb15e2d5b9eb8c92a2762e820c08b53 = L.marker(
+                [34.1182, -118.2577],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_a14e5fbe0fa901d79643059a7c7542af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_4bb15e2d5b9eb8c92a2762e820c08b53.setIcon(icon_a14e5fbe0fa901d79643059a7c7542af);
+        
+    
+        var popup_56e4c1b2a6ec721e7e2c381edfc9a257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a415086253115c04ff9a3ee2f97d51fb = $(`<div id="html_a415086253115c04ff9a3ee2f97d51fb" style="width: 100.0%; height: 100.0%;">The nonprofit organization The Village Gardeners of Atwater Village is dedicated to improving and beautifying the community's public spaces.</div>`)[0];
+                popup_56e4c1b2a6ec721e7e2c381edfc9a257.setContent(html_a415086253115c04ff9a3ee2f97d51fb);
+            
+        
+
+        marker_4bb15e2d5b9eb8c92a2762e820c08b53.bindPopup(popup_56e4c1b2a6ec721e7e2c381edfc9a257)
+        ;
+
+        
+    
+    
+            var marker_6038bd66cba3b9f0505e5b78acaa1a10 = L.marker(
+                [34.1157, -118.2621],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_77f2bf071420ef58fa2a6ce710309ebe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_6038bd66cba3b9f0505e5b78acaa1a10.setIcon(icon_77f2bf071420ef58fa2a6ce710309ebe);
+        
+    
+        var popup_b8abea65f2ee9388f170a2f98e54b9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc18241ff2e95f98c66bae57a47fc4f8 = $(`<div id="html_fc18241ff2e95f98c66bae57a47fc4f8" style="width: 100.0%; height: 100.0%;">The neighborhood is home to several popular coffee shops, including Proof Bakery and Tacos Villa Corona.</div>`)[0];
+                popup_b8abea65f2ee9388f170a2f98e54b9c5.setContent(html_fc18241ff2e95f98c66bae57a47fc4f8);
+            
+        
+
+        marker_6038bd66cba3b9f0505e5b78acaa1a10.bindPopup(popup_b8abea65f2ee9388f170a2f98e54b9c5)
+        ;
+
+        
+    
+    
+            var marker_6c8189759bd8770fb786d82e9d959f76 = L.marker(
+                [34.1137, -118.2589],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_6a4f69dd4435eca562c760a563ff8b12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_6c8189759bd8770fb786d82e9d959f76.setIcon(icon_6a4f69dd4435eca562c760a563ff8b12);
+        
+    
+        var popup_6f9c2f153a3dcdcfd01464de1ada681d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad725f802786df80fda73ec7018a85a0 = $(`<div id="html_ad725f802786df80fda73ec7018a85a0" style="width: 100.0%; height: 100.0%;">The first branch of the Los Angeles Public Library was built in Atwater Village in 1913.</div>`)[0];
+                popup_6f9c2f153a3dcdcfd01464de1ada681d.setContent(html_ad725f802786df80fda73ec7018a85a0);
+            
+        
+
+        marker_6c8189759bd8770fb786d82e9d959f76.bindPopup(popup_6f9c2f153a3dcdcfd01464de1ada681d)
+        ;
+
+        
+    
+    
+            var marker_c53ce33d67ab9c97d4f82c7f3c2b6159 = L.marker(
+                [34.119, -118.2577],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_fc8f6d1d9b18d93737b552c667380165 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_c53ce33d67ab9c97d4f82c7f3c2b6159.setIcon(icon_fc8f6d1d9b18d93737b552c667380165);
+        
+    
+        var popup_de6d40dd47ac35ca1637b8ba874d1bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beddf687912e6bfb9abc4e3ab156b293 = $(`<div id="html_beddf687912e6bfb9abc4e3ab156b293" style="width: 100.0%; height: 100.0%;">The famous poet Charles Bukowski lived in Atwater Village in the 1960s.</div>`)[0];
+                popup_de6d40dd47ac35ca1637b8ba874d1bd7.setContent(html_beddf687912e6bfb9abc4e3ab156b293);
+            
+        
+
+        marker_c53ce33d67ab9c97d4f82c7f3c2b6159.bindPopup(popup_de6d40dd47ac35ca1637b8ba874d1bd7)
+        ;
+
+        
+    
+    
+            var marker_1c288101311e4c5c32da520352410c9e = L.marker(
+                [34.1173, -118.2587],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_fce7d1b222f9d07eb63d8d0a5976968f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_1c288101311e4c5c32da520352410c9e.setIcon(icon_fce7d1b222f9d07eb63d8d0a5976968f);
+        
+    
+        var popup_251337a466ae1172b35a6b8ca46459d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5fbd1ac0b2f1338e4e7cb40da166e40 = $(`<div id="html_b5fbd1ac0b2f1338e4e7cb40da166e40" style="width: 100.0%; height: 100.0%;">The classic car restoration shop, The Automobile Driving Museum, is located in Atwater Village.</div>`)[0];
+                popup_251337a466ae1172b35a6b8ca46459d4.setContent(html_b5fbd1ac0b2f1338e4e7cb40da166e40);
+            
+        
+
+        marker_1c288101311e4c5c32da520352410c9e.bindPopup(popup_251337a466ae1172b35a6b8ca46459d4)
+        ;
+
+        
+    
+    
+            var marker_607ff2956f9a66d9756583f6e376d4ec = L.marker(
+                [34.1129, -118.2642],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_530ab56ed6dcbc6af0ed53f0498fba6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_607ff2956f9a66d9756583f6e376d4ec.setIcon(icon_530ab56ed6dcbc6af0ed53f0498fba6a);
+        
+    
+        var popup_f19123ee557c8cff31c529b1b98dfabc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a215305d9447eec3c6042e2f4e64a2 = $(`<div id="html_98a215305d9447eec3c6042e2f4e64a2" style="width: 100.0%; height: 100.0%;">The restaurant Kismet, which features Middle Eastern-inspired cuisine, was named one of the best restaurants in America by Eater in 2017.</div>`)[0];
+                popup_f19123ee557c8cff31c529b1b98dfabc.setContent(html_98a215305d9447eec3c6042e2f4e64a2);
+            
+        
+
+        marker_607ff2956f9a66d9756583f6e376d4ec.bindPopup(popup_f19123ee557c8cff31c529b1b98dfabc)
+        ;
+
+        
+    
+    
+            var marker_d53a6956be8c54f33112a0d435fcaf8e = L.marker(
+                [34.1181, -118.2575],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_8693764ade28636f7abc32beeab91769 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_d53a6956be8c54f33112a0d435fcaf8e.setIcon(icon_8693764ade28636f7abc32beeab91769);
+        
+    
+        var popup_c6a9f5e627d2b76031f2649d6d2a3204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adb0235a0eccfeec708e183f0ea0c7a0 = $(`<div id="html_adb0235a0eccfeec708e183f0ea0c7a0" style="width: 100.0%; height: 100.0%;">The area is known for its lively arts scene and is home to several galleries and artist studios.</div>`)[0];
+                popup_c6a9f5e627d2b76031f2649d6d2a3204.setContent(html_adb0235a0eccfeec708e183f0ea0c7a0);
+            
+        
+
+        marker_d53a6956be8c54f33112a0d435fcaf8e.bindPopup(popup_c6a9f5e627d2b76031f2649d6d2a3204)
+        ;
+
+        
+    
+    
+            var marker_7a0052965242a01f2c1f4de2e07d6b16 = L.marker(
+                [34.1166, -118.2618],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_9a1bc4ee779c63dde456991c9f67242d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_7a0052965242a01f2c1f4de2e07d6b16.setIcon(icon_9a1bc4ee779c63dde456991c9f67242d);
+        
+    
+        var popup_e8e3536d49705071cb7e05492ea212d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb3a63ff59d3847fcea9a5002e20296 = $(`<div id="html_bbb3a63ff59d3847fcea9a5002e20296" style="width: 100.0%; height: 100.0%;">The Atwater Village Chamber of Commerce sponsors the annual "Atwater Village Tree Lighting" event during the holiday season.</div>`)[0];
+                popup_e8e3536d49705071cb7e05492ea212d4.setContent(html_bbb3a63ff59d3847fcea9a5002e20296);
+            
+        
+
+        marker_7a0052965242a01f2c1f4de2e07d6b16.bindPopup(popup_e8e3536d49705071cb7e05492ea212d4)
+        ;
+
+        
+    
+    
+            var marker_9e62cfe516af605a89fa2cc5914623b9 = L.marker(
+                [34.1338, -118.2835],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_10b07c260b629f06bc711b581852e0f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_9e62cfe516af605a89fa2cc5914623b9.setIcon(icon_10b07c260b629f06bc711b581852e0f8);
+        
+    
+        var popup_b1cf32cce99128698ad708cbb78fb4b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e93ed68237588f07ef4a6757a6d620f2 = $(`<div id="html_e93ed68237588f07ef4a6757a6d620f2" style="width: 100.0%; height: 100.0%;">The neighborhood is located near Griffith Park, which is one of the largest urban parks in the United States.</div>`)[0];
+                popup_b1cf32cce99128698ad708cbb78fb4b1.setContent(html_e93ed68237588f07ef4a6757a6d620f2);
+            
+        
+
+        marker_9e62cfe516af605a89fa2cc5914623b9.bindPopup(popup_b1cf32cce99128698ad708cbb78fb4b1)
+        ;
+
+        
+    
+    
+            var marker_97b07da36b06bccc31c568777b779161 = L.marker(
+                [34.1146, -118.2589],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_28bf48411a2aab5f02fe68c3e19a2627 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_97b07da36b06bccc31c568777b779161.setIcon(icon_28bf48411a2aab5f02fe68c3e19a2627);
+        
+    
+        var popup_0dc4c08d14b7b413eca717b403178317 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4723de86b9e7b526d1dda84eb8602ad7 = $(`<div id="html_4723de86b9e7b526d1dda84eb8602ad7" style="width: 100.0%; height: 100.0%;">The neighborhood is home to several historic buildings, including the Tam O'Shanter restaurant and the former Atwater Park Branch Library.</div>`)[0];
+                popup_0dc4c08d14b7b413eca717b403178317.setContent(html_4723de86b9e7b526d1dda84eb8602ad7);
+            
+        
+
+        marker_97b07da36b06bccc31c568777b779161.bindPopup(popup_0dc4c08d14b7b413eca717b403178317)
+        ;
+
+        
+    
+    
+            var marker_bd9d3b5f415aa6593ed70753f7f6ef77 = L.marker(
+                [34.1121, -118.2579],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_4f2e8fdeb84a8eefb6d9594d6b9e9d54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_bd9d3b5f415aa6593ed70753f7f6ef77.setIcon(icon_4f2e8fdeb84a8eefb6d9594d6b9e9d54);
+        
+    
+        var popup_7d60db47d45e36de747b77bb86497134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d25d2586288637b691d4e45cbbd17e82 = $(`<div id="html_d25d2586288637b691d4e45cbbd17e82" style="width: 100.0%; height: 100.0%;">The Atwater Village branch of the YMCA offers a variety of fitness programs and classes.</div>`)[0];
+                popup_7d60db47d45e36de747b77bb86497134.setContent(html_d25d2586288637b691d4e45cbbd17e82);
+            
+        
+
+        marker_bd9d3b5f415aa6593ed70753f7f6ef77.bindPopup(popup_7d60db47d45e36de747b77bb86497134)
+        ;
+
+        
+    
+    
+            var marker_0f93130c4a58226c9bd0ac36cf03be6b = L.marker(
+                [34.1134, -118.2724],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_c85b3249d982f490415b0c98f66f35b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_0f93130c4a58226c9bd0ac36cf03be6b.setIcon(icon_c85b3249d982f490415b0c98f66f35b6);
+        
+    
+        var popup_de3a836a99d0fdeae883652af13c5678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e477dcf23c4f94a55d3cdd3211ab786a = $(`<div id="html_e477dcf23c4f94a55d3cdd3211ab786a" style="width: 100.0%; height: 100.0%;">The Los Feliz Branch of the US Post Office, which serves Atwater Village, was built in 1935 and features a unique Art Deco design.</div>`)[0];
+                popup_de3a836a99d0fdeae883652af13c5678.setContent(html_e477dcf23c4f94a55d3cdd3211ab786a);
+            
+        
+
+        marker_0f93130c4a58226c9bd0ac36cf03be6b.bindPopup(popup_de3a836a99d0fdeae883652af13c5678)
+        ;
+
+        
+    
+    
+            var marker_2adec8ec01d599f61ab6205f01488ea3 = L.marker(
+                [34.1163, -118.2626],
+                {}
+            ).addTo(map_aa2c129e9c69a15d6bf272b726487536);
+        
+    
+            var icon_85661c00f0c32350b45b9ed63c1f12fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "orange", "prefix": "fa", "width": 600}
+            );
+            marker_2adec8ec01d599f61ab6205f01488ea3.setIcon(icon_85661c00f0c32350b45b9ed63c1f12fd);
+        
+    
+        var popup_7f79033add601a0c5255cc8d3056a149 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e92815a3c353a0370acdb09314d437c4 = $(`<div id="html_e92815a3c353a0370acdb09314d437c4" style="width: 100.0%; height: 100.0%;">The weekly "Atwater Village Beer, Wine & Food Festival" showcases local restaurants and craft breweries.</div>`)[0];
+                popup_7f79033add601a0c5255cc8d3056a149.setContent(html_e92815a3c353a0370acdb09314d437c4);
+            
+        
+
+        marker_2adec8ec01d599f61ab6205f01488ea3.bindPopup(popup_7f79033add601a0c5255cc8d3056a149)
+        ;
+
+        
+    
+</script>
+</html>
